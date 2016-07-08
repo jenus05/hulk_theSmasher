@@ -1,16 +1,16 @@
-# def even_odd_sort(list):
-#     evn = []
-#     odd = []
-#     for num in list:
-#         if num%2==0:
-#             evn.append(num)
-#             evn.sort(key=int)
-#         else:
-#             odd.append(num)
-#             odd.sort(key=int)
-#     print evn,"the even numbers"
-#     print odd, "the odd numbers"
-#     print evn + odd
+def even_odd_sort(list):
+    evn = []
+    odd = []
+    for num in list:
+        if num%2==0:
+            evn.append(num)
+            evn.sort(key=int)
+        else:
+            odd.append(num)
+            odd.sort(key=int)
+    print evn,"the even numbers"
+    print odd, "the odd numbers"
+    print evn + odd
 
 # list = [2,34,5,6,8,9,77,5]
 # even_odd_sort(list)
